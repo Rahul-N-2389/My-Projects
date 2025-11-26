@@ -1,0 +1,130 @@
+.main{
+    background-color: black;
+    height: 70px;
+    padding-right: 100px;
+    display: flex;
+}
+.logo{
+    color: brown;
+   font-weight: bold;
+   font-size: 30px;
+  
+  
+  padding: 15px;
+}
+.adress{
+    color: rgba(245, 245, 245, 0.598);
+    
+    font-size: 0.75rem;
+    padding-left: 10px; 
+}
+.box2{
+    align-self: center;
+}
+#subAd {
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+  font-size: 1rem;
+}
+.all{
+    height: 40px;
+    width: 40px;
+   border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  .dropdown select,
+
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+}
+
+#srch{
+    color: blue;
+    
+}
+.box3{
+    background-color: wheat;
+    height: 40px;
+    width: 700px;
+    align-self: center;
+    margin-left: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+    
+}
+#search{
+    height: 40px;
+    width: 620px;
+    margin: 0px;
+    
+    
+}
+
+.box4{
+   align-self: center;
+   display: flex;
+    margin-right: 20px;
+   
+}
+#globe{
+    font-size: 25px;
+    color: skyblue;
+     margin-right: 5px;
+ 
+}
+#select{
+ height: 30px;
+    width: 40px;
+}
+
+.box5{
+    color: azure;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+}
+#dropdown2{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(202, 202, 219);
+   margin-top: 20px;
+    
+}
+.box6{
+    color: rgb(179, 184, 189);
+    margin-left: 30px;   
+}
+.cart{
+    color: rgba(160, 160, 163, 0.874);
+    align-content: center;
+    margin-left: 30px; 
+}
+.headown{
+    height: 40px;
+   
+    background-color: rgba(3, 3, 3, 0.685);
+}
+.p1{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(116, 27, 205);
+    margin: auto;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/032/242/170/large_2x/beautiful-waterfall-flowers-water-nature-waterfall-hd-wallpaper-ai-generated-free-photo.jpg);
+    background-size: cover;
+    
+    
+}
+.boxx{
+        display: flex;
+        flex-wrap: wrap;
+
+}
