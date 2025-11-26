@@ -1,0 +1,69 @@
+.Container{
+    background-color: aqua;
+    height: 450px;
+    width: 350px;
+   
+   margin-left: 600px;
+   margin-top: 210px;
+   border-radius: 50px;
+   
+   
+ border: 20px solid rgb(26, 239, 58);
+   border-color: rgb(25, 222, 222);
+   border-width: 2PX;
+   background: transparent;
+   backdrop-filter: blur(10px); 
+   display: block;
+  
+}
+#Word{
+    display:block;
+   
+    margin-top: 50px;
+   width: 260px;
+   margin-left: 50px;
+}
+body{
+    background-image: url(https://images.unsplash.com/flagged/photo-1551301622-6fa51afe75a9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+    background-position: center;  /* Centers the image */
+  background-attachment: fixed;
+}
+ input{
+  height: 20px;
+  width: 250px;
+  border-radius: 30px;
+  text-align: center;
+  flex-direction: column;
+  margin:2px 0px 2px 0px;
+  background: transparent;
+  border-color: rgba(16, 15, 15, 0.956);
+  color: rgb(224, 219, 219);
+ 
+  }
+button{
+  height: 30px;
+  width: 100px;
+   background: transparent;
+   border-radius: 30px;
+}
+.submit{
+  background-color: rgb(201, 185, 185);
+   height: 30px;
+  width: 100px;
+  display: flex;
+ margin-left: 120px;
+ margin-top: 50px;
+ border-radius: 30px;
+ backdrop-filter: blur(10px);
+}
+input::placeholder{
+  color: black;
+}
+h1{
+  color: aliceblue;
+  font-style:arial;
+  font-size: 50PX;
+  font: bold;
+ 
+}
