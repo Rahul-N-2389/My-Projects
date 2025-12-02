@@ -1,10 +1,32 @@
+
+
+
+
+
+.photo{
+ border: 2px solid #83c5be;
+
+  
+  
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+   margin: 280px 100px 10px 100px;
+   border-radius: 100%;
+   background-position: center;
+   background-size: cover;
+   background-image: url(https://plus.unsplash.com/premium_vector-1727313579616-6ca82527e137?q=80&w=952&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
 .Container{
     background-color: aqua;
     height: 450px;
     width: 350px;
    
-   margin-left: 600px;
-   margin-top: 210px;
+   margin-right: 130px;
+   margin-left: 130px;
+   margin-top: 200px;
    border-radius: 50px;
    
    
@@ -16,6 +38,24 @@
    display: block;
   
 }
+
+.photo2{
+ border: 2px solid #83c5be;
+
+  
+  
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+   margin: 280px 100px 10px 100px;
+   border-radius: 100%;
+   background-position: center;
+   background-size: cover;
+   background-image: url(https://plus.unsplash.com/premium_vector-1727313579616-6ca82527e137?q=80&w=952&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+
 #Word{
     display:block;
    
@@ -58,7 +98,7 @@ button{
  backdrop-filter: blur(10px);
 }
 input::placeholder{
-  color: black;
+  color: rgb(52, 135, 137);
 }
 h1{
   color: aliceblue;
@@ -66,4 +106,110 @@ h1{
   font-size: 50PX;
   font: bold;
  
+}
+
+button{
+  background-color: #3a5a40;
+  color: rgb(255, 255, 255);
+}
+/* page2  */
+.Tank{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.index1{
+ 
+  margin: 100px 100px 0px 100px;
+   height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1649734926695-1b1664e98842?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+     background-position: center;  /* Centers the image */
+  border-width: 5px;
+  border: 50px;
+ 
+  
+}
+
+.index2{
+ 
+  margin: 100px 100px 0px 100px;
+   height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1706426629246-2a3c3e3e3ff2?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     background-position: center;  /* Centers the image */
+  border-width: 5px;
+  border: 50px;
+ 
+  background-size: cover;
+}
+
+.index3{
+ 
+  margin: 100px 100px 0px 100px;
+   height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1706426622289-0819e32b0035?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmV0ZmxpeCUyMGxvZ28lMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+     background-position: center;  /* Centers the image */
+  border-width: 5px;
+  border: 50px;
+
+}
+
+.index4{
+ 
+  margin: 100px 100px 0px 100px;
+   height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1633886897663-44c707d71904?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+     background-position: center;  /* Centers the image */
+  border-width: 5px;
+  border: 50px;
+ 
+}
+
+.index5{
+ 
+  margin: 100px 100px 0px 100px;
+   height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1705904506626-aba18263a2c7?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+     background-position: center;  /* Centers the image */
+  border-width: 5px;
+  border: 50px;
+ 
+}
+
+.index6{
+ 
+  margin: 100px 100px 0px 100px;
+   height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1644035525230-61eae56969da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hhdHMlMjBhcHAlMjAlMjBsb2dvJTIwcGhvdG98ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+     background-position: center;  /* Centers the image */
+  border-width: 5px;
+  border: 50px;
+ 
+}
+body{
+  align-content: center;
+}
+
+
+
+.main{
+  display: inline-flex;
 }
