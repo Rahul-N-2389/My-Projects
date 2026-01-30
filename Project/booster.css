@@ -1,0 +1,81 @@
+.Section{
+    /* border:5px solid white; */
+    display: flex;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1000;
+    width:100%;
+
+}
+.container1{
+    padding-left: 50px;
+    padding: 50px;
+}
+.container2{
+    display: flex;
+    padding:40px;
+    padding-left: 900px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.container3{
+    padding: 40px;
+}
+.carusole-img{
+    height:100vh;
+    object-fit: cover;
+}
+/* HERO TEXT OVER CAROUSEL */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 10;
+  max-width: 700px;
+}
+
+/* Rings icon */
+.rings {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Small text */
+.subtitle {
+  color: #d8a25e;
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Main heading */
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+.description {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.hero-btn {
+  background-color: #d8a25e;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #c18c45;
+}

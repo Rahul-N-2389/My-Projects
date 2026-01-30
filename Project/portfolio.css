@@ -1,0 +1,347 @@
+.Section{
+    display: flex;
+   
+    background-color: #f6f6f6;
+    padding:40px 60px;
+    
+    margin-bottom: 50px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin-left: 50px;
+}
+.container1{
+   margin-left: 1000px;
+   margin-top: 20px;
+}
+.section1{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.section1>.tabs {
+    
+    text-align: center;
+    font-family: "Raleway";
+    
+    
+}
+
+.tabs>a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:#aaa;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: #aaa;
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+
+}
+.tabs a {
+    cursor: pointer;
+    position: relative;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+
+.tabs a:hover {
+    color: #c49a6c;
+    font-weight: 600;
+}
+
+.tabs a::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #c49a6c;
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* underline appears on hover */
+.tabs a:hover::after {
+    width: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    grid-auto-rows: 80px;
+    /* each row height */
+    gap: 20px;
+    padding: 100px 300px 100px 300px;
+}
+
+/* common card style */
+.card {
+    background: white;
+    /* border-radius: 10px; */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+
+    font-size: 22px;
+    font-weight: bold;
+   position: relative;
+    overflow: hidden; 
+}
+
+.card img{
+  width: 100%;
+  height: 85%;
+  
+  display: block;
+  object-fit: cover;
+}
+.hover {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.4s ease;
+  text-align: center;
+}
+
+
+.card:hover .hover{
+  opacity: 1;
+} 
+
+.hover h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.hover p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.icons {
+  margin-top: 15px;
+}
+
+.icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.icons a:hover {
+  color: #f2c94c;
+}
+
+
+.tall {
+    grid-row: span 4;
+    /* 4 rows height */
+}
+
+.small {
+    height: 400px;
+}
+
+
+.two {
+    grid-row: span 3;
+    /* 3 rows height */
+    height: 300px;
+}
+.four {
+    grid-row: span 3;
+    /* 3 rows height */
+    /* padding-bottom: 350px; */
+    margin-top: 50px;
+}
+.seven{
+    grid-row: span 3;
+    margin-top: 200px;
+}
+.one>img {
+    width: 100%;
+    height: 85%;
+}
+
+.two>img {
+    width: 100%;
+    height: 80%;
+}
+
+.three>img {
+    width: 100%;
+    height: 85%;
+}
+.four>img {
+    width: 100%;
+    height: 85%;
+}
+
+.five>img {
+    width: 100%;
+    height: 85%;
+}
+
+.six>img {
+    width: 100%;
+    height: 85%;
+}
+.seven>img{
+    width: 100%;
+    height: 85%;
+}
+.eight>img{
+     width: 100%;
+    height: 85%;
+}
+.nine>img{
+     width: 100%;
+    height: 85%;
+}
+.subtags {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* font-size: 20px; */
+
+}
+
+.subtags>p {
+    font-size: 10px;
+    margin-right: 1rem;
+    /* background-color: palegoldenrod; */
+    color: gray;
+    font-family: "Raleway";
+    font-weight: 100;
+}
+
+.subtags>a {
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: black;
+    font-family: "Raleway";
+    font-weight: 600;
+} 
+.hero-section{
+    margin-top: 60px;
+    /* min-height: 100vh; */
+    background-image:url("https://media.istockphoto.com/id/1974699208/photo/young-teen-couple-hold-hands-on-a-grass-on-a-field-in-september.jpg?b=1&s=612x612&w=0&k=20&c=DBjui3AuQkQodyg64vgDmTmeB6aoAF0nHNRX2iMuHCc=");
+    background-size: cover;
+    background-position: center;
+    /* justify-content: space-between; */
+    
+}
+.overlay{
+    min-height: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 80px 40px;
+}
+.container {
+    display: flex;
+    gap:70px;
+    color: #fff;
+    margin-right: 40px;
+    /* justify-content: space-between; */
+}
+
+.left pre {
+    margin: 20px 0;
+    /* line-height: 1.6; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ddd;
+}
+
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 18px;
+    color: #cfa670;
+    margin-left: 5px;
+}
+.socialicons i{
+    margin-left: 20px ;
+}
+
+.post{
+    display: flex;
+    
+    gap:15px;
+    
+}
+.icon{
+    position: absolute;
+    background: #8b4513;
+    color: white;
+    font-size: 15px;
+    padding: 2px 2px;
+    border-radius: 25%;
+}
+.Projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+img{
+    /* width:100%;
+    height:100%; */
+    transition: all 1s ease;
+}
+.child{
+    width:100px;
+    height:100px;
+    background-color:brown;
+    text-align:center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}  
+.child p{
+    position:absolute;         
+    opacity:0;
+   
+    font-size:15px;
+    transition: all 1s ease;
+}
+.child:hover img{
+    opacity:0.5;
+}
+
+.child:hover p{
+    opacity:1;
+}
+.child7{
+    width: 70px;
+    height: 70px;
+}
+.child8{
+    width: 70px;
+    height: 70px;
+}
+.child9{
+    width: 70px;
+    height: 70px;
+}
