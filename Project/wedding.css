@@ -1845,7 +1845,7 @@ label>i {
    FORCE SINGLE COLUMN IN MOBILE
 ========================== */
 
-@media (max-width: 738px) {
+@media (max-width: 768px) {
 
     .grid {
         /* display: grid; */
